@@ -1,0 +1,49 @@
+# === Core Dependencies ===
+gradio==4.44.1
+fastapi==0.115.0
+uvicorn==0.31.0
+requests==2.32.3
+tqdm==4.66.5
+pandas==2.2.3
+numpy==2.0.2
+
+# === Audio & Processing ===
+ffmpy==0.4.0
+pydub==0.25.1
+openai-whisper==20240930  # For speech-to-text (Whisper)
+torch==2.4.1               # Required by Whisper
+
+# === NLP & Summarization Support ===
+transformers==4.45.1
+tiktoken==0.7.0
+tokenizers==0.20.0
+huggingface-hub==0.25.1
+
+# === Utilities & Compatibility ===
+attrs==24.2.0
+pydantic==2.9.2
+typing_extensions==4.12.2
+markdown-it-py==3.0.0
+mdurl==0.1.2
+protobuf==3.20.1
+orjson==3.10.7
+pillow==10.4.0
+rich==13.9.0
+python-multipart==0.0.12
+pyyaml==6.0.2
+
+# === Optional (UI & Visualization) ===
+matplotlib==3.9.2
+contourpy==1.3.0
+cycler==0.12.1
+kiwisolver==1.4.7
+fonttools==4.54.1
+
+# === Development & Linting (Optional) ===
+ruff==0.6.8
+setuptools==75.1.0
+
+# === Async & HTTP Handling ===
+httpx==0.27.2
+anyio==4.6.0
+sniffio==1.3.1
